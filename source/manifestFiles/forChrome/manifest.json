@@ -1,0 +1,32 @@
+{
+
+    "name": "Simple Bitcoin Paper Wallet",
+    "version": "1",
+    "manifest_version": 2,
+
+    "description":"This Simple Bitcoin Paper Wallet Extension generates public and private keys",
+    "browser_action": {
+      "default_icon": {                
+
+        "512": "./front-end/assets/media/images/icon512x512.png",
+        "128": "./front-end/assets/media/images/icon128x128.png",
+        "48": "./front-end/assets/media/images/icon48x48.png",
+        "16": "./front-end/assets/media/images/icon16x16.png"
+
+        },
+
+        "default_title": "Bitcoin Paper Wallet",  
+        "default_popup": "index.html"
+      },
+    "icons": {
+        "512": "./front-end/assets/media/images/icon512x512.png",
+        "128": "./front-end/assets/media/images/icon128x128.png",
+        "48": "./front-end/assets/media/images/icon48x48.png",
+        "16": "./front-end/assets/media/images/icon16x16.png"
+
+      
+    }
+ 
+
+}
+
