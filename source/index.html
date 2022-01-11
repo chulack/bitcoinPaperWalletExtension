@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"  >
+    <head>
+
+        <!-- meta tags -->
+        
+        <meta charset="UTF-8">
+        <meta name="HandheldFriendly" content="true"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta property="twitter:title" content="" />
+        <meta property="twitter:description" content="" />
+        <meta property="twitter:image" content="" />
+
+
+        <!-- non-meta tags  -->
+        
+        <title></title>
+
+        <link rel="stylesheet" href="./front-end/style/css/style.css">
+
+
+
+        
+
+    </head>
+
+    <body>
+
+
+        <main>
+
+            
+
+        <!-- receive View-->
+
+        <div id="receiveView" class="centerAll  ">
+
+            <span id="avatarSpan" >          
+
+                <img id="avatarImgReceive" class="avatarImg" src="">   
+
+        </span>
+            <img  id="newAddress"  title="New Wallet" alt="New Wallet" src="./front-end/assets/media/images/resetIcon.png">
+
+
+            <hr class="hrClass">
+ 
+            <div style="text-align: center;">
+             
+                <p id="keyPublic">Public Key: </p>
+ 
+                <div id="qrcode" ></div>
+ 
+                <h4 id="privateAddress" title="Copy Private Adrress">Copy Private Adrress</h4>
+ 
+            </div>
+
+            <input id="thePrivateAddress" type="text" class="hideIt">
+
+ 
+        </div>
+
+
+
+    
+       
+
+
+    </div>
+
+
+
+
+
+
+        </main>
+
+        <!-- library imports -->
+
+
+        <script src="./front-end/scripts/javascript/lib/qrcodejs/qrcode.min.js"></script>
+
+
+        <script src="./front-end/scripts/javascript/lib/buidljs/buidl.min.js"> </script>
+        
+        <!-- model import -->
+
+        <script src="./front-end/scripts/javascript/lib/walletCore/model/Model.js"></script>
+
+
+        <!-- contorller import -->
+
+        <script src="./front-end/scripts/javascript/lib/walletCore/controllers/Controller.js"></script>
+        
+
+        <!-- event import -->
+
+        <script src="./front-end/scripts/javascript/lib/walletCore/controllers/events/events.js"></script>
+
+
+      
+
+    </body>
+
+</html>
